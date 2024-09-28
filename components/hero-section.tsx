@@ -8,14 +8,15 @@ const content =
 const HeroSection = () => {
   return (
     <>
-      <section className="heroSection flex flex-col items-end gap-2 ">
+      <section className="heroSection flex flex-col items-end gap-2 mx-auto w-full ">
         <div className=" relative w-full">
           <video
             src="https://res.cloudinary.com/dj0z4bjt0/video/upload/v1727344142/WhatsApp_Video_2024-09-23_at_7.32.12_PM_atnj7j.mp4"
             autoPlay
             muted
             loop
-            className="w-full full -z-30"
+            controls={false}
+            className="w-full -z-30"
           />
           <div className="px-2 text-[14px] md:text-xl flex items-center justify-between absolute bottom-0 md:bottom-20 md:hidden">
             <div>
