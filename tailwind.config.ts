@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        darkblue:"#12203D",
+        offwhite:"#DBDAD5",
+        gold:"#AF8344"
       },
+      fontFamily:{
+        GeneralSans:"General Sans",
+        Montserrat:"Montserrat",
+        InstrumentSerif:"Instrument Serif"
+      }
     },
   },
   plugins: [],
