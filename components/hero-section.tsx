@@ -15,7 +15,7 @@ const HeroSection = () => {
             autoPlay
             muted
             loop
-            className="w-full full"
+            className="w-full full -z-30"
           />
           <div className="px-2 text-[14px] md:text-xl flex items-center justify-between absolute bottom-0 md:bottom-20 md:hidden">
             <div>
