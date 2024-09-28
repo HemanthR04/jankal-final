@@ -19,7 +19,7 @@ const FooterLinks: React.FC = () => {
       <div className="flex flex-wrap w-full max-md:max-w-full">
         <FooterColumn title="Locations" links={locationLinks.slice(0, 7)} />
 
-        <FooterColumn title="Company" links={companyLinks} />
+       
         <div className="flex flex-col justify-center pb-6 text-sm max-w-[1623px">
           <div className="flex flex-col pr-4 pl-12 max-w-full min-h-[244px] w-sm max-md:pl-5">
             <h3 className="pb-px w-full tracking-widest leading-tight">
