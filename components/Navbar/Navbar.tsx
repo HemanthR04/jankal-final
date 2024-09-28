@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center py-4 px-8 text-offwhite z-50">
+    <nav className="flex justify-between items-center py-4 px-8 text-offwhite z-50 overflow-hidden">
       <div className="flex items-center">
         <Image src={Logo} alt="Logo" className="h-16 w-16 mr-2" />
        
@@ -23,8 +23,8 @@ const Navbar = () => {
           </svg>
         </button>
         <motion.div 
-          initial={{ x: "100%" }}
-          animate={{ x: isOpen ? "0%" : "100%" }}
+          initial={{ y: "-120%" }}
+          animate={{ y: isOpen ? "16%" : "-120%" }}
           transition={{ duration: 0.5 }}
           className={`absolute top-0  right-0 w-full mt-10 p-2 z-50 bg-darkblue text-offwhite shadow-lg`}
         >

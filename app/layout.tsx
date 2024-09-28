@@ -32,7 +32,7 @@ export default function RootLayout({
         ></link>
       </head>
       <body className="bg-darkblue">
-        {/* <Navbar/> */}
+        <Navbar/>
         {children}</body>
     </html>
   );
