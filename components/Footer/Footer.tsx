@@ -1,6 +1,5 @@
 import React from 'react';
-import SocialIcons from '../public/Bangalore.webp.png'
-import Logo from '../public/Bangalore.webp.png'
+
 import FooterLinks from './Footerlinks';
 const Footer: React.FC = () => {
   return (
