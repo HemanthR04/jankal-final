@@ -11,7 +11,6 @@ const locationLinks = [
   "Chickballapura",
 ];
 
-const companyLinks = ["CAREERS"];
 
 const FooterLinks: React.FC = () => {
   return (
